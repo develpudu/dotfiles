@@ -1,0 +1,23 @@
+[user]
+name = Devel Pudu
+email = develpudu@gmail.com
+#signingkey = 811173C303342045
+
+[init]
+defaultBranch = main
+
+[push]
+default = current
+
+[core]
+excludesfile = ~/.gitignore
+editor = nvim
+
+[pull]
+ff = only
+
+[commit]
+#gpgsign = true
+
+[hub]
+protocol = ssh

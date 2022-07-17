@@ -1,0 +1,34 @@
+# about:config
+
+# Expire cookies after 7 days.
+network.cookie.lifetimePolicy = 3
+network.cookie.lifetime.days = 5
+
+# Show raw punycode to avoid phishing attempts.
+network.IDN_show_punycode = true
+
+# Don't allow websites to prevent use of right-click.
+dom.event.contextmenu.enabled = false
+
+# Don't allow websites to mess up with the clipboard
+# Gives problems when pasting in some webs.
+# dom.event.clipboardevents.enabled = false
+
+# Disable website reading how much battery your mobile device or laptop has.
+dom.battery.enabled = false
+
+# Disable 3rd party closed-source Pocket integration.
+extensions.pocket.enabled = false
+
+# Disable preloading of autocomplete URLs.
+browser.urlbar.speculativeConnect.enabled = false
+
+# Disable geolocation.
+geo.enabled = false
+
+# Disable sending analytics.
+# https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon
+beacon.enabled = false
+
+# Disable autofill of forms, you can still see the suggestions once you click on the field.
+signon.autofillForms = false

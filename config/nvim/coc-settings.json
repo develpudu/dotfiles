@@ -1,0 +1,42 @@
+{
+  "coc.preferences.extensionUpdateCheck": "weekly",
+  "coc.preferences.enableMessageDialog": true,
+  "dialog.floatBorderHighlight": "FloatBorder",
+  "suggest.floatConfig": {
+    "border": true,
+    "winblend": 15,
+    "borderhighlight": "FloatBorder"
+  },
+  "hover.floatConfig": {
+    "border": true,
+    "winblend": 15,
+    "borderhighlight": "FloatBorder"
+  },
+  "signature.floatConfig": {
+    "border": true,
+    "winblend": 15,
+    "borderhighlight": "FloatBorder"
+  },
+  "diagnostic.floatConfig": {
+    "border": true,
+    "winblend": 15,
+    "borderhighlight": "FloatBorder"
+  },
+  "Lua.diagnostics.globals": ["vim"],
+  "Lua.runtime.version": "LuaJIT",
+  "Lua.workspace.preloadFileSize": 500,
+  "html.autoClosingTags": true,
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "rust-analyzer.inlayHints.enable": false,
+  "clangd.arguments": [
+    "--fallback-style", "{BasedOnStyle: webkit, IndentWidth: 2}",
+    "--clang-tidy", "--clang-tidy-checks=*",
+    "--cross-file-rename",
+    "--index"
+  ],
+  "clangd.disableProgressNotifications": true,
+  "yaml.format.enable": true,
+  "python.formatting.provider": "black",
+  "pyright.disableProgressNotifications": true,
+  "esbonio.enableFixDirectiveCompletion": false
+}
